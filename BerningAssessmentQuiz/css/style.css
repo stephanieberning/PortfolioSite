@@ -1,0 +1,80 @@
+@charset "UTF-8";
+/* CSS Document */
+* {
+	box-sizing: border-box;
+}
+
+html {
+	width: 1280px;
+	margin: 0 auto;
+}
+
+h1 {
+	color: red;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	font-size: 25px;
+}
+
+h2 {
+	color: deeppink;
+	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+	font-size: 35px;
+}
+
+h3 {
+	color: greenyellow;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	font-size: 45px;
+	font-style: italic;
+}
+
+p {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 12px;
+	line-height: 30px;
+}
+
+header {
+	height: 250px;
+	border-bottom: 50px solid #CE463B;
+}
+
+section {
+	background-color: #f99707;
+	padding: 15px;
+	overflow: hidden;
+}
+
+article, 
+aside {
+	background-color: white;
+	padding: 15px;
+}
+
+article {
+	width: 73%;
+	float: left;
+	margin-right: 15px;
+}
+
+aside {
+	width: 25%;
+	float: right;
+}
+
+.image-small {
+	width: 100px;
+	height: 100px;
+}
+
+.image-large {
+	width: 200px;
+	height: 200px;
+}
+
+footer {
+	background-color: black;
+	color: white;
+	text-align: center;
+	padding: 10px;
+}
