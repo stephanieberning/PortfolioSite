@@ -1,5 +1,6 @@
 @charset "UTF-8";
-/* CSS Document */
+/* MISC
+------------------------------ */
 * {
 	box-sizing: border-box;
 }
@@ -15,12 +16,14 @@ footer {
 	padding: 0;
 }
 
-header p, 
+header p,
 header ul,
 footer p {
 	margin: 0;
 }
 
+/* HEADER
+------------------------------ */
 header {
 	padding: 15px;
 	background-color: #402A35;
@@ -34,6 +37,8 @@ header {
 	font-size: 45px;
 }
 
+/* NAVIGATION
+------------------------------ */
 nav {
 	width: 50%;
 	float: right;
@@ -58,6 +63,8 @@ nav ul {
 	margin: 15px;
 }
 
+/* CONTENT
+------------------------------ */
 main {
 	width: 1140px;
 	margin: 15px auto;  /*top/bottom, left/right*/
@@ -132,6 +139,8 @@ h2 {
 	border-radius: 5px;
 }
 
+/* FOOTER
+------------------------------ */
 footer {
 	background-color: #402A35;
 	color: white;
